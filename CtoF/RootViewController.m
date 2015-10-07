@@ -27,6 +27,7 @@
     self.pageViewController.delegate = self;
 
     DataViewController *startingViewController = [self.modelController viewControllerAtIndex:0 storyboard:self.storyboard];
+    // UIViewController *caculatorViewController = [
     NSArray *viewControllers = @[startingViewController];
     [self.pageViewController setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
 
@@ -46,6 +47,10 @@
 
     // Add the page view controller's gesture recognizers to the book view controller's view so that the gestures are started more easily.
     self.view.gestureRecognizers = self.pageViewController.gestureRecognizers;
+    
+    UIPageControl *pageControlAppearance = [UIPageControl appearanceWhenContainedIn:[UIPageViewController class], nil];
+    pageControlAppearance.pageIndicatorTintColor = [UIColor redColor];
+    pageControlAppearance.currentPageIndicatorTintColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning {

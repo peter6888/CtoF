@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UIPageControl *pageControlAppearance = [UIPageControl appearanceWhenContainedIn:[UIPageViewController class], nil];
+    pageControlAppearance.pageIndicatorTintColor = [UIColor redColor];
+    pageControlAppearance.currentPageIndicatorTintColor = [UIColor redColor];
+    NSLog(@"viewDidLoad");
 }
 
 - (void)didReceiveMemoryWarning {
@@ -26,7 +30,8 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.dataLabel.text = [self.dataObject description];
+    UIImage *image = [UIImage imageNamed:[self.dataObject description]];
+    [self.imageView setImage:image];
 }
 
 @end

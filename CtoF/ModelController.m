@@ -30,8 +30,11 @@
     self = [super init];
     if (self) {
         // Create the data model.
-        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-        _pageData = [[dateFormatter monthSymbols] copy];
+        // NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+        _pageData = [[NSArray alloc] initWithObjects:@"bodytable",@"airoventable", nil]; //, nil[[dateFormatter monthSymbols] copy];
+        UIPageControl *pageControlAppearance = [UIPageControl appearanceWhenContainedIn:[UIPageViewController class], nil];
+        pageControlAppearance.pageIndicatorTintColor = [UIColor redColor];
+        pageControlAppearance.currentPageIndicatorTintColor = [UIColor redColor];
     }
     return self;
 }
@@ -81,4 +84,14 @@
     return [self viewControllerAtIndex:index storyboard:viewController.storyboard];
 }
 
+- (NSInteger) presentationCountForPageViewController:(UIPageViewController *)pageViewController {
+    NSLog(@"presentationCountForPageViewController");
+    return 2;
+}
+
+- (NSInteger) presentationIndexForPageViewController:(UIPageViewController *)pageViewController {
+    NSUInteger index = [self indexOfViewController:(DataViewController *)pageViewController];
+    NSLog(@"In presentationIndexForPageViewController index value is %lu", index);
+    return index;
+}
 @end

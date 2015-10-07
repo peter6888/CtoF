@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A70568BF1BC3AC9200484FEE /* DiagramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70568BE1BC3AC9200484FEE /* DiagramViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A70B0CA91BAF1A640094F930 /* CaculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70B0CA81BAF1A640094F930 /* CaculatorViewController.m */; settings = {ASSET_TAGS = (); }; };
 		A78744A61B7EA9D30002017D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A78744A51B7EA9D30002017D /* main.m */; };
 		A78744A91B7EA9D30002017D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A78744A81B7EA9D30002017D /* AppDelegate.m */; };
 		A78744AC1B7EA9D30002017D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A78744AB1B7EA9D30002017D /* RootViewController.m */; };
@@ -29,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A70568BD1BC3AC9200484FEE /* DiagramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiagramViewController.h; sourceTree = "<group>"; };
+		A70568BE1BC3AC9200484FEE /* DiagramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiagramViewController.m; sourceTree = "<group>"; };
+		A70B0CA71BAF1A640094F930 /* CaculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculatorViewController.h; sourceTree = "<group>"; };
+		A70B0CA81BAF1A640094F930 /* CaculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculatorViewController.m; sourceTree = "<group>"; };
 		A78744A01B7EA9D30002017D /* CtoF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CtoF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78744A41B7EA9D30002017D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A78744A51B7EA9D30002017D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,9 +102,13 @@
 				A78744B01B7EA9D30002017D /* ModelController.h */,
 				A78744B11B7EA9D30002017D /* ModelController.m */,
 				A78744B31B7EA9D30002017D /* Main.storyboard */,
+				A70568BD1BC3AC9200484FEE /* DiagramViewController.h */,
+				A70568BE1BC3AC9200484FEE /* DiagramViewController.m */,
 				A78744B61B7EA9D30002017D /* Images.xcassets */,
 				A78744B81B7EA9D30002017D /* LaunchScreen.xib */,
 				A78744A31B7EA9D30002017D /* Supporting Files */,
+				A70B0CA71BAF1A640094F930 /* CaculatorViewController.h */,
+				A70B0CA81BAF1A640094F930 /* CaculatorViewController.m */,
 			);
 			path = CtoF;
 			sourceTree = "<group>";
@@ -230,6 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A78744AF1B7EA9D30002017D /* DataViewController.m in Sources */,
+				A70568BF1BC3AC9200484FEE /* DiagramViewController.m in Sources */,
+				A70B0CA91BAF1A640094F930 /* CaculatorViewController.m in Sources */,
 				A78744A91B7EA9D30002017D /* AppDelegate.m in Sources */,
 				A78744B21B7EA9D30002017D /* ModelController.m in Sources */,
 				A78744A61B7EA9D30002017D /* main.m in Sources */,
@@ -430,6 +442,7 @@
 				A78744CB1B7EA9D30002017D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A78744CC1B7EA9D30002017D /* Build configuration list for PBXNativeTarget "CtoFTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +451,7 @@
 				A78744CE1B7EA9D30002017D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

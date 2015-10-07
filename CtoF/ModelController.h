@@ -14,6 +14,7 @@
 
 - (DataViewController *)viewControllerAtIndex:(NSUInteger)index storyboard:(UIStoryboard *)storyboard;
 - (NSUInteger)indexOfViewController:(DataViewController *)viewController;
-
+- (NSInteger)presentationIndexForPageViewController:(UIPageViewController *)pageViewController;
+-(NSInteger)presentationCountForPageViewController:(UIPageViewController *)pageViewController;
 @end
 
