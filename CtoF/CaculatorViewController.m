@@ -35,7 +35,7 @@ float cTemp;
 }
 
 -(void)increaseNumber:(UIPanGestureRecognizer *)sender {
-    NSLog([NSString stringWithFormat:@"Increase number been called direction %@", @"up"]);
+    NSLog(@"Increase number been called direction %@", @"up");
     
     if(sender.state == UIGestureRecognizerStateChanged || sender.state == UIGestureRecognizerStateEnded) {
         CGPoint velocity = [sender velocityInView:self.view];

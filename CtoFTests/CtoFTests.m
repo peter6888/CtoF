@@ -30,6 +30,12 @@
     XCTAssert(YES, @"Pass");
 }
 
+- (void)testGetLocalizedString {
+    NSString *localizedString = NSLocalizedString(@"bodytable", nil);
+    NSLog(localizedString);
+    XCTAssertNotNil(localizedString);
+}
+
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
     [self measureBlock:^{

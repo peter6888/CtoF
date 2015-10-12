@@ -19,8 +19,12 @@ int imageIndex = 0;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     [self.typeSegmentedControl addTarget:self action:@selector(changeDiagramType:) forControlEvents:UIControlEventValueChanged];
-    _images = [NSMutableArray arrayWithObjects:[UIImage imageNamed:@"bodytable"], [UIImage imageNamed:@"airoventable"], nil];
+    _images = [NSMutableArray arrayWithObjects:
+                    [UIImage imageNamed:[self getLocalizedImageName:@"bodytable"]],
+                    [UIImage imageNamed:[self getLocalizedImageName:@"airoventable"]],
+                    nil];
     [self.diagramImageView setImage:_images[imageIndex]];
 }
 
@@ -33,6 +37,11 @@ int imageIndex = 0;
     NSLog(@"changing diagram type!");
 
     [self.diagramImageView setImage:_images[imageIndex = !imageIndex]];
+}
+
+-(NSString *)getLocalizedImageName: (NSString *)imageName {
+        NSString *localizedImageName = [[NSString alloc] initWithFormat:@"%@-%@", imageName, [[NSBundle mainBundle] preferredLocalizations].firstObject];
+    return localizedImageName;
 }
 
 /*

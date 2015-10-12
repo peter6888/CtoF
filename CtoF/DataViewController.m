@@ -30,7 +30,9 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    UIImage *image = [UIImage imageNamed:[self.dataObject description]];
+    NSString *localizedImageName = NSLocalizedString([self.dataObject description],nil);
+    NSLog(@"Loading image %@", localizedImageName);
+    UIImage *image = [UIImage imageNamed:localizedImageName];
     [self.imageView setImage:image];
 }
 

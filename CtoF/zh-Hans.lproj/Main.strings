@@ -1,0 +1,39 @@
+
+/* Class = "UISegmentedControl"; 0Yt-Oq-io9.segmentTitles[0] = "Body"; ObjectID = "0Yt-Oq-io9"; */
+"0Yt-Oq-io9.segmentTitles[0]" = "体温";
+
+/* Class = "UISegmentedControl"; 0Yt-Oq-io9.segmentTitles[1] = "Oven&Air"; ObjectID = "0Yt-Oq-io9"; */
+"0Yt-Oq-io9.segmentTitles[1]" = "烤箱和气温";
+
+/* Class = "UISegmentedControl"; 4sA-hQ-nh8.segmentTitles[0] = "Body"; ObjectID = "4sA-hQ-nh8"; */
+"4sA-hQ-nh8.segmentTitles[0]" = "体温";
+
+/* Class = "UISegmentedControl"; 4sA-hQ-nh8.segmentTitles[1] = "Air"; ObjectID = "4sA-hQ-nh8"; */
+"4sA-hQ-nh8.segmentTitles[1]" = "气温";
+
+/* Class = "UISegmentedControl"; 4sA-hQ-nh8.segmentTitles[2] = "Oven"; ObjectID = "4sA-hQ-nh8"; */
+"4sA-hQ-nh8.segmentTitles[2]" = "烤箱";
+
+/* Class = "UILabel"; text = "25C"; ObjectID = "FiK-OU-o4L"; */
+"FiK-OU-o4L.text" = "25C";
+
+/* Class = "UIViewController"; title = "AdaptiveLayoutViewController"; ObjectID = "LEh-Jt-Cnv"; */
+"LEh-Jt-Cnv.title" = "AdaptiveLayoutViewController";
+
+/* Class = "UILabel"; text = "500.1F"; ObjectID = "LPz-YU-9vu"; */
+"LPz-YU-9vu.text" = "500.1F";
+
+/* Class = "UIViewController"; title = "Table"; ObjectID = "S4R-Ja-viH"; */
+"S4R-Ja-viH.title" = "Table";
+
+/* Class = "UILabel"; text = "Cupertino"; ObjectID = "fAp-di-Q8L"; */
+"fAp-di-Q8L.text" = "Cupertino";
+
+/* Class = "UIButton"; normalTitle = "Caculator>"; ObjectID = "kZ6-YS-wEd"; */
+"kZ6-YS-wEd.normalTitle" = "换算>";
+
+/* Class = "UILabel"; text = "100.0C"; ObjectID = "qOt-gy-NnW"; */
+"qOt-gy-NnW.text" = "100.0C";
+
+/* Class = "UIViewController"; title = "PagedViewController"; ObjectID = "xeu-ir-thk"; */
+"xeu-ir-thk.title" = "PagedViewController";

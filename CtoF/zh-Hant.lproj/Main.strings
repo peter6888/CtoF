@@ -1,0 +1,27 @@
+
+/* Class = "UISegmentedControl"; 0Yt-Oq-io9.segmentTitles[0] = "Body"; ObjectID = "0Yt-Oq-io9"; */
+"0Yt-Oq-io9.segmentTitles[0]" = "體溫";
+
+/* Class = "UISegmentedControl"; 0Yt-Oq-io9.segmentTitles[1] = "Oven&Air"; ObjectID = "0Yt-Oq-io9"; */
+"0Yt-Oq-io9.segmentTitles[1]" = "烤箱和氣溫";
+
+/* Class = "UISegmentedControl"; 4sA-hQ-nh8.segmentTitles[0] = "Body"; ObjectID = "4sA-hQ-nh8"; */
+"4sA-hQ-nh8.segmentTitles[0]" = "體溫";
+
+/* Class = "UISegmentedControl"; 4sA-hQ-nh8.segmentTitles[1] = "Air"; ObjectID = "4sA-hQ-nh8"; */
+"4sA-hQ-nh8.segmentTitles[1]" = "氣溫";
+
+/* Class = "UISegmentedControl"; 4sA-hQ-nh8.segmentTitles[2] = "Oven"; ObjectID = "4sA-hQ-nh8"; */
+"4sA-hQ-nh8.segmentTitles[2]" = "烤箱";
+
+/* Class = "UILabel"; text = "500.1F"; ObjectID = "LPz-YU-9vu"; */
+"LPz-YU-9vu.text" = "500.1F";
+
+/* Class = "UIButton"; normalTitle = "Caculator>"; ObjectID = "kZ6-YS-wEd"; */
+"kZ6-YS-wEd.normalTitle" = "計算器>";
+
+/* Class = "UILabel"; text = "100.0C"; ObjectID = "qOt-gy-NnW"; */
+"qOt-gy-NnW.text" = "100.0C";
+
+/* Class = "UIViewController"; title = "PagedViewController"; ObjectID = "xeu-ir-thk"; */
+"xeu-ir-thk.title" = "PagedViewController";
