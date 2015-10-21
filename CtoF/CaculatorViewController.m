@@ -8,7 +8,7 @@
 
 #import "CaculatorViewController.h"
 
-float changeFactor[] = {0.1, 1.0, 10.0};
+float changeFactor[] = {0.05, 0.4, 3.0};
 float startValues[] = {36.8, 20.0, 100.0};
 float cTemp;
 

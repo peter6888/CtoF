@@ -218,6 +218,19 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="bodytable-en" translatesAutoresizingMaskIntoConstraints="NO" id="Uxe-cX-x81">
                                 <rect key="frame" x="0.0" y="99" width="600" height="496"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="Q6v-0H-V52"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Q6v-0H-V52"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="Q6v-0H-V52"/>
+                                    </mask>
+                                </variation>
                             </imageView>
                         </subviews>
                         <animations/>
@@ -237,10 +250,10 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="5yi-jz-NQb"/>
-                                <exclude reference="yMJ-gX-cie"/>
                                 <exclude reference="TOF-Yk-3lQ"/>
                                 <exclude reference="egQ-ci-m9Z"/>
+                                <exclude reference="5yi-jz-NQb"/>
+                                <exclude reference="yMJ-gX-cie"/>
                                 <exclude reference="jS2-E4-Tcx"/>
                             </mask>
                         </variation>
@@ -256,6 +269,11 @@
                         <variation key="heightClass=compact-widthClass=compact">
                             <mask key="constraints">
                                 <include reference="yMJ-gX-cie"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <exclude reference="L8S-Tb-lKM"/>
                             </mask>
                         </variation>
                     </view>
