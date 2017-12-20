@@ -7,6 +7,7 @@
 //
 
 #import "CaculatorViewController.h"
+#import "Appirater.h"
 
 float changeFactor[] = {0.05, 0.4, 3.0};
 float startValues[] = {36.8, 20.0, 100.0};
@@ -32,6 +33,7 @@ float cTemp;
     NSLog(@"segment changed!");
     cTemp = startValues[[self.segmentType selectedSegmentIndex]];
     [self updateNumber];
+    [Appirater userDidSignificantEvent:YES];
 }
 
 -(void)increaseNumber:(UIPanGestureRecognizer *)sender {
